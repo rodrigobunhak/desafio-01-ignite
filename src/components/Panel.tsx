@@ -17,10 +17,10 @@ export function Panel() {
                 </div>
             </header>
             <div className={styles.content}>
-                {/* <Task /> */}
-                {/* <ListChecks size={56} className={styles.icon}/>
+
+                <ListChecks size={56} className={styles.icon}/>
                 <strong>Você ainda não tem tarefas cadastradas</strong>
-                Crie tarefas e organize seus itens a fazer */}
+                Crie tarefas e organize seus itens a fazer
 
                 <Task />
 

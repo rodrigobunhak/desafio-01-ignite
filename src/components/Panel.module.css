@@ -15,34 +15,44 @@
     color: var(--blue);
     font-weight: 700;
     font-size: 0.875rem;
+
     display: flex;
+    align-items: center;
     gap: 0.5rem;
 }
 
 .created span {
     background: var(--gray-400);
+    height: 100%;
     color: var(--white);
-    padding: 0 8px;
+    padding: 4px 12px;
     font-weight: 400;
-    font-size: 12px;
-    border-radius: 8px;
+    border-radius: 2px;
+
+    display: flex;
+    align-items: center;
 }
 
 .done {
     color: var(--purple);
     font-weight: 700;
     font-size: 0.875rem;
+    
     display: flex;
+    align-items: center;
     gap: 0.5rem;
 }
 
 .done span {
     background: var(--gray-400);
+    height: 100%;
     color: var(--white);
-    padding: 0 8px;
+    padding: 4px 12px;
     font-weight: 400;
-    font-size: 12px;
-    border-radius: 8px;
+    border-radius: 2px;
+
+    display: flex;
+    align-items: center;
 }
 
 .content {
