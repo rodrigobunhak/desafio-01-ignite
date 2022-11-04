@@ -53,11 +53,10 @@
 
     border-top: 1px solid var(--gray-400);
     border-radius: 8px;
-
-    padding: 4rem;
 }
 
 .icon {
     color: var(--gray-400);
     margin-bottom: 1rem;
+    margin-top: 4rem;
 }

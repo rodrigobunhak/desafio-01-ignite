@@ -1,6 +1,7 @@
-import { ListChecks } from 'phosphor-react';
+import { ListChecks, Trash } from 'phosphor-react';
 
 import styles from './Panel.module.css';
+import { Task } from './Task';
 
 export function Panel() {
     return (
@@ -17,9 +18,12 @@ export function Panel() {
             </header>
             <div className={styles.content}>
                 {/* <Task /> */}
-                <ListChecks size={56} className={styles.icon}/>
+                {/* <ListChecks size={56} className={styles.icon}/>
                 <strong>Você ainda não tem tarefas cadastradas</strong>
-                Crie tarefas e organize seus itens a fazer
+                Crie tarefas e organize seus itens a fazer */}
+
+                <Task />
+
             </div>
         </div>
     )
