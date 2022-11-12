@@ -37,6 +37,7 @@
   height: 25px;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .checkContainer svg {
